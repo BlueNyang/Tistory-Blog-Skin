@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+middleware.*.ts
+z_tistory-preview
+
+test.html
