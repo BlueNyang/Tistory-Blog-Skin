@@ -1,11 +1,12 @@
 {
   "name": "blog-test",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build:astro": "astro build",
     "build:js": "rollup -c",
+    "build": "npm run build:astro && npm run build:js",
     "preview": "astro preview",
     "astro": "astro"
   },

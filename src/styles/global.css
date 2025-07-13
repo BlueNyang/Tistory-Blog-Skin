@@ -202,3 +202,48 @@ div.tt_box_namecard > .tt_cont > .tt_btn_subscribe > .tt_txt_g {
 div.tt_box_namecard > .tt_cont > .tt_btn_subscribe > .tt_ico_cross {
   @apply invert;
 }
+
+code.hljs {
+  @apply rounded-xl bg-gray-100 text-gray-800 shadow-md dark:bg-gray-700 dark:text-gray-200;
+}
+
+span.hljs-comment,
+span.hljs-quote {
+  @apply text-green-600;
+}
+
+span.hljs-keyword,
+span.hljs-selector-tag,
+span.hljs-subst {
+  @apply font-normal text-blue-400;
+}
+
+span.hljs-literal,
+span.hljs-number,
+span.hljs-tag .hljs-attr,
+span.hljs-template-variable,
+span.hljs-variable {
+  @apply text-lime-300;
+}
+
+span.hljs-section,
+span.hljs-selector-id,
+span.hljs-title {
+  @apply text-emerald-400;
+}
+
+span.hljs-class .hljs-title,
+span.hljs-type {
+  @apply text-emerald-500;
+}
+
+span.hljs-built_in,
+span.hljs-builtin-name,
+span.hljs-function .hljs-title {
+  @apply text-yellow-100;
+}
+
+span.hljs-doctag,
+span.hljs-string {
+  @apply text-orange-300;
+}

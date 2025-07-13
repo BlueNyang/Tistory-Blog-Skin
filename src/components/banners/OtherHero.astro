@@ -9,7 +9,7 @@ const { title, desc, imgSrc }: Props = Astro.props;
 ---
 
 <div
-  class="relative z-0 flex h-[calc(100vh*2/3)] w-full items-center justify-center"
+  class="relative z-0 flex h-[calc(100vh*2/3)] w-full items-center justify-center rounded-2xl bg-gradient-to-t from-black/50 to-transparent"
 >
   <div
     class="relative z-30 flex h-full flex-col items-center justify-center px-4 text-center"
@@ -23,7 +23,7 @@ const { title, desc, imgSrc }: Props = Astro.props;
   </div>
   <div
     id="hero-front-ground"
-    class="dark:black/50 absolute z-20 h-full w-full bg-gray-500/50 opacity-50"
+    class="dark:black/50 absolute z-20 h-full w-full rounded-2xl bg-gray-500/50 opacity-50"
   >
   </div>
   <img
