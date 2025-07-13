@@ -1,0 +1,10 @@
+**/node_modules/*
+**/.vscode/**
+**/*.config.js
+**/*.config.ts
+**/*.config.cjs
+**/*.config.mjs
+**/*.config.json
+**/*config.json
+**/*rc.js
+**/package*.json
