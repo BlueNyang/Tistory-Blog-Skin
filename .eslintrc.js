@@ -1,5 +1,3 @@
-const { file } = require("astro/loaders");
-
 module.exports = {
   extends: [
     "eslint:recommended",
