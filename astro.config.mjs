@@ -4,8 +4,11 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  vite:{ 
-    plugins: [tailwindcss()],
+  vite: {
+    plugins: [
+      // @ts-ignore
+      tailwindcss()
+    ],
     build: {
       rollupOptions: {
         output: {

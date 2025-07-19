@@ -8,11 +8,13 @@ export default function setOffcanvasEvents() {
     offcanvas?.classList.remove("-translate-x-full");
     offcanvas?.classList.add("translate-x-0");
     backdrop?.classList.remove("hidden");
+    backdrop?.classList.add("flex");
   }
 
   function closeOffcanvas() {
     offcanvas?.classList.remove("translate-x-0");
     offcanvas?.classList.add("-translate-x-full");
+    backdrop?.classList.remove("flex");
     backdrop?.classList.add("hidden");
   }
 
