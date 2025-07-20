@@ -22,10 +22,3 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
-
-middleware.ts
-middleware.*.ts
-z_tistory-preview
-
-\[...slug\].astro
-test.html
