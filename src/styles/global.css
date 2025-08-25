@@ -297,6 +297,22 @@ code.hljs {
   @apply rounded-xl bg-gray-100 text-gray-800 shadow-md dark:bg-gray-700 dark:text-gray-200;
 }
 
+code.hljs::-webkit-scrollbar {
+  @apply h-2;
+}
+
+code.hljs::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+code.hljs::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gray-400 dark:bg-gray-500;
+}
+
+code.hljs::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-400;
+}
+
 span.hljs-comment,
 span.hljs-quote {
   @apply text-green-600;
