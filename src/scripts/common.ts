@@ -2,6 +2,7 @@ import seqSnippet from "./snippets";
 import { LoadedTheme } from "./toggleTheme";
 import setOffcanvasEvents from "./offcanvas";
 import changeSubsBtnIco from "./changeSubsBtn";
+import articleNavigation from "./articleNavigation";
 //import handleScroll from "./navbarDoc";
 //import setEventListenersOnDropdown from "./dropdown";
 
@@ -13,3 +14,5 @@ LoadedTheme();
 setOffcanvasEvents();
 
 changeSubsBtnIco();
+
+articleNavigation();

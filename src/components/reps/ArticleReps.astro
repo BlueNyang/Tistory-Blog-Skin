@@ -2,6 +2,7 @@
 import OtherHero from '@/components/banners/OtherHero.astro';
 import LongCard from '@/components/cards/LongCard.astro';
 import TagBadge from '@/components/sidebar/TagBadge.astro';
+import ArticleNav from './ArticleNav.astro';
 ---
 
 <s_article_rep>
@@ -19,8 +20,11 @@ import TagBadge from '@/components/sidebar/TagBadge.astro';
       </span>
     </div>
 
-    <div class="article-view mb-8" id="article-view">
-      [##_article_rep_desc_##]
+    <div class="mb-8 flex">
+      <div class="article-view flex-3" id="article-view">
+        [##_article_rep_desc_##]
+      </div>
+      <ArticleNav />
     </div>
 
     <div id="article-footer" class="flex w-full flex-col items-center">
